@@ -8,13 +8,6 @@
 
 ---
 
-### 📊 Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=flew96&show_icons=true&include_all_commits=true&hide_border=true&bg_color=161b22&title_color=e44c9a&icon_color=58a6ff&text_color=c9d1d9&ring_color=e44c9a" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=flew96&layout=compact&hide_border=true&bg_color=161b22&title_color=e44c9a&text_color=c9d1d9" />
-</p>
-
 ### 📈 Commit activity
 
 <p align="center">
