@@ -1,21 +1,6 @@
-```text
-███████╗██╗     ███████╗██╗    ██╗ █████╗  ██████╗ 
-██╔════╝██║     ██╔════╝██║    ██║██╔══██╗██╔════╝ 
-█████╗  ██║     █████╗  ██║ █╗ ██║╚██████║███████╗ 
-██╔══╝  ██║     ██╔══╝  ██║███╗██║ ╚═══██║██╔═══██╗
-██║     ███████╗███████╗╚███╔███╔╝ █████╔╝╚██████╔╝
-╚═╝     ╚══════╝╚══════╝ ╚══╝╚══╝  ╚════╝  ╚═════╝
-```
-
-<h1 align="center">
-  😵‍💫 flew96 / novice developer
-</h1>
-
 <p align="center">
-  <a href="https://github.com/flew96"><img src="https://komarev.com/ghpvc/?username=flew96&color=8b5cf6&style=flat-square&label=profile+views" /></a>
+  <img src="assets/banner.svg" alt="flew96" width="100%" />
 </p>
-
----
 
 ### 📈 Commit activity
 
