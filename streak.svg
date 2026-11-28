@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <rect width="495" height="195" rx="4.5" fill="#161b22"/>
+  <line x1="165" y1="28" x2="165" y2="170" stroke="#30363d"/>
+  <line x1="330" y1="28" x2="330" y2="170" stroke="#30363d"/>
+  
+  <g text-anchor="middle" font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif">
+    
+    <text x="82.5" y="79" fill="#c9d1d9" font-size="28" font-weight="700">191</text>
+    <text x="82.5" y="115" fill="#c9d1d9" font-size="14" font-weight="400">Total Contributions</text>
+    <text x="82.5" y="145" fill="#8b949e" font-size="12">Nov 7, 2023 - Present</text>
+  </g>
+  
+  <g text-anchor="middle" font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif">
+    <path d="M268.41 36.90 A40 40 0 1 1 226.59 36.90" fill="none" stroke="#a855f7" stroke-width="5" stroke-linecap="round"/><path transform="translate(238.5 17)" fill="#e44c9a"
+      d="M9 0C10.5 4.5 15 7 15 13.5C15 18 12.3 21 9 21C5.7 21 3 18 3 14C3 10.5 5 8.5 6.5 7C6.5 9.5 7.7 11 9 11.5C8.2 8 8.5 3.5 9 0Z"/>
+    <text x="247.5" y="81" fill="#c9d1d9" font-size="28" font-weight="700">1</text>
+    <text x="247.5" y="140" fill="#e44c9a" font-size="14" font-weight="700">Current Streak</text>
+    <text x="247.5" y="165" fill="#8b949e" font-size="12">Nov 28</text>
+  </g>
+  
+  <g text-anchor="middle" font-family="'Segoe UI',Ubuntu,-apple-system,Helvetica,Arial,sans-serif">
+    
+    <text x="412.5" y="79" fill="#c9d1d9" font-size="28" font-weight="700">5</text>
+    <text x="412.5" y="115" fill="#c9d1d9" font-size="14" font-weight="400">Longest Streak</text>
+    <text x="412.5" y="145" fill="#8b949e" font-size="12">Sep 26 - Sep 30</text>
+  </g>
+</svg>
