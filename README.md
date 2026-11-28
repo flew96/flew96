@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=flew96&hide_border=true&background=161b22&ring=a855f7&fire=e44c9a&currStreakLabel=e44c9a&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" />
+  <img alt="GitHub streak stats" src="https://raw.githubusercontent.com/flew96/flew96/output/streak.svg" />
 </p>
 
 ### 🐍 Contributions, eaten
