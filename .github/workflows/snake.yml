@@ -15,16 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#8b5cf6
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#a855f7
-
+      # Our scripts run before snk: snk runs in Docker as root and leaves dist/ unwritable.
       - name: Generate activity graph SVG
         run: node scripts/activity-graph.mjs ${{ github.repository_owner }} dist/activity-graph.svg
         env:
@@ -34,6 +27,14 @@ jobs:
         run: node scripts/streak-card.mjs ${{ github.repository_owner }} dist/streak.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#8b5cf6
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#a855f7
 
       - name: Push SVGs to the "output" branch
         uses: crazy-max/ghaction-github-pages@v4
