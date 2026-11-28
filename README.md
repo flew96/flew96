@@ -5,7 +5,7 @@
 ### 📈 Commit activity
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=flew96&bg_color=161b22&color=c9d1d9&title_color=e44c9a&line=a855f7&point=e44c9a&area=true&area_color=a855f7&hide_border=true&radius=6&custom_title=Contributions%20over%20the%20last%2031%20days" />
+  <img width="100%" alt="contribution activity graph" src="https://raw.githubusercontent.com/flew96/flew96/output/activity-graph.svg" />
 </p>
 
 <p align="center">

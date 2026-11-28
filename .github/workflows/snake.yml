@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:
@@ -22,6 +24,11 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=#8b5cf6
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#a855f7
+
+      - name: Generate activity graph SVG
+        run: node scripts/activity-graph.mjs ${{ github.repository_owner }} dist/activity-graph.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push SVGs to the "output" branch
         uses: crazy-max/ghaction-github-pages@v4
